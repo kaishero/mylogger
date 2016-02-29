@@ -2,7 +2,7 @@ package javasample.mylogger;
 
 public class NewClass {
 
-    private static MyLogger logger = new MyLogger(App.class);
+    private static MyLogger logger = new MyLogger(NewClass.class);
 
     public int newMethod() throws InterruptedException {
         logger.start();
